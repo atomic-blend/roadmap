@@ -1,0 +1,28 @@
+name: Feature Request
+description: Ask for a new feature or an enhancement.
+title: ""
+labels: ["enhancement"]
+projects: ["octo-org/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to give your feedback and share ideas!
+  - type: textarea
+    id: bug-not-right
+    attributes:
+      label: Is there a bug? Something that's not right?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What would you like to change? To add?
+      description: Tell us what you think would be best!
+      placeholder: I'd like to see...
+      value: ""
+    validations:
+      required: true
