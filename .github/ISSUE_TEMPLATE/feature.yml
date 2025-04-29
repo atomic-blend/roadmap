@@ -1,7 +1,7 @@
 name: Feature Request
 description: Ask for a new feature or an enhancement.
-labels: ["enhancement"]
-projects: ["octo-org/1"]
+labels: ["enhancement", "triage"]
+projects: ["atomic-blend/2"]
 body:
   - type: markdown
     attributes:
